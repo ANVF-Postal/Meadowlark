@@ -39,7 +39,7 @@ pub fn run_ui(program_layer: ProgramLayer) -> Result<(), String> {
 
         cx.add_stylesheet("src/ui_layer/resources/themes/default_theme.css");
 
-        program_layer.clone().build(cx);
+        program_layer.build(cx);
 
         // Dummy AppData for now (TODO - Move this into ProgramState)
         AppData {

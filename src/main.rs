@@ -60,9 +60,11 @@
 //! [`VIZIA`]: https://github.com/vizia/vizia
 
 #[macro_use]
-extern crate serde_derive;
 extern crate serde;
 extern crate serde_json;
+
+/// The maximum number of frames per-process-cyle.
+const MAX_BLOCK_SIZE: usize = 512;
 
 mod backend_layer;
 mod program_layer;
