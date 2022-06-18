@@ -18,7 +18,7 @@ pub mod program_state;
 use std::path::PathBuf;
 
 pub use program_state::ProgramState;
-use rusty_daw_core::MusicalTime;
+use meadowlark_core_types::MusicalTime;
 
 use self::program_state::{ChannelRackOrientation, PanelState, TimelineGridState};
 use vizia::prelude::*;
