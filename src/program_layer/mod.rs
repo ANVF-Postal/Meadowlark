@@ -122,7 +122,7 @@ impl ProgramLayer {
             sample_rate,
             min_frames: 1,
             max_frames: crate::MAX_BLOCK_SIZE as u32,
-            num_audio_in_channels: 0,
+            num_audio_in_channels: 2,
             num_audio_out_channels: 2,
             ..Default::default()
         })));
