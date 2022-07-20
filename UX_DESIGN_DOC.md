@@ -58,7 +58,7 @@ Note that this is just a mockup and the final design is subject to change. Here 
 (From left to right)
 * Transport Display - The user can click on this to toggle between two different modes:
     * Musical time - This will display the time at the current playhead in (measures/beats/16th beats).
-    * Real time - This will display the time at the current playhead in (hours/minuts/seconds/milliseconds).
+    * Real time - This will display the time at the current playhead in (hours/minutes/seconds/milliseconds).
 * Loop Toggle Button - The user can click on this to toggle looping in the transport.
 * Play button - The user clicks this to play/pause the transport.
 * Stop button - The user clicks this to pause the transport and return to the beginning of the most recently seeked position.
